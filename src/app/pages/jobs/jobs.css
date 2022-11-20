@@ -1,0 +1,16 @@
+.jobs{
+    margin:30px,auto;
+}
+.jobs ul{
+    text-align: center;
+    display: flex;
+    flex-flow: wrap; /* Positive flex-shrink */
+
+    
+}
+
+.jobs ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 20px;
+}
