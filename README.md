@@ -14,6 +14,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+to run the backend 
+### cd api
+
+### `npx nodemon`
+Runs the backend at 3030 port.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
