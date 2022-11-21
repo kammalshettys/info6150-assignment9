@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this assignment we have created a job application through react.
+* React framework is extremely useful to make the reuseble componenet.
+* In this assignment I have created one card component and used it throughout the assignemtn
+* Each pages use the card component by sending props. Based on the props data the card is created.
+* In this assignement I have created multiple cards we using Array.map function.
+* to test the app please follow the below steps.
 
 ## Available Scripts
 
@@ -19,7 +24,7 @@ to run the backend
 
 ### `npx nodemon`
 Runs the backend at 3030 port.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3030](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
