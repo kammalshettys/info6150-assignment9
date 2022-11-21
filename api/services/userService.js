@@ -60,7 +60,9 @@ userService.createUser = async function(user,func){
             func(validate.ErrorObj(valid.error.message,true),null);
             return;
         }
-    
+        const salt = await bcrypt.genSaltSync(10);
+        const hash = await bcrypt.hash(user.password,salt);
+        user.password = hash;
         const param = {
             email:user.email,
             name:user.name,
