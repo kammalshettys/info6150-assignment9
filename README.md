@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React based Job application.
 
 In this assignment we have created a job application through react.
 * React framework is extremely useful to make the reuseble componenet.
