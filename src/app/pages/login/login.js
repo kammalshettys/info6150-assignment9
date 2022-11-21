@@ -17,7 +17,7 @@ export default function Login(props) {
         var url= 'http://localhost:3030/user/login'
         axios.post(url,param).then((response)=>{
             props.appCallBack(response.data);
-            navigate(`/`);
+            navigate(`/home`);
 
         }).catch((e)=>{
             setError("Some Error has occured")

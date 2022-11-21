@@ -12,7 +12,7 @@ function navBar(props){
         <Navbar.Brand href="#home">Talentica</Navbar.Brand>
         <Nav className="justify-content-center" activeKey="/home">
           <Nav.Item>
-            <Link to = '/' >
+            <Link to = '/home' >
                     <Nav.Link href="#home">Home</Nav.Link>
             </Link>
           </Nav.Item>
@@ -32,8 +32,8 @@ function navBar(props){
             </Link>  
           </Nav.Item>
           <Nav.Item>
-            <Link to = "/login">
-                    <Nav.Link href="#contact" >Logout</Nav.Link>
+            <Link to = "/">
+                    <Nav.Link href="#logout" >Logout</Nav.Link>
             </Link>  
           </Nav.Item>
         </Nav>

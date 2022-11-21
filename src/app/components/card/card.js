@@ -26,7 +26,7 @@ export default function CardComponent(props) {
 
 
   let smallCards = props.isSmallCard? (
-  <Card style={{ width: '18rem' }}>
+  <Card style={{ width: '18rem',boxShadow:'10px 5px 5px 5px grey' }}>
   <Card.Img variant="top" src={props.image} style={{height:'150px'}}/>
   <Card.Body>
   <Card.Title>{props.title}</Card.Title>

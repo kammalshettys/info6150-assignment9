@@ -21,9 +21,10 @@ function App() {
     <Routes>
       <Route path = "/about" element = {<About userName={userName}/>}></Route>
       <Route path = "/jobs" element = {<Jobs userName={userName}/>}></Route>
-      <Route path = "/login" element = {<Login appCallBack={appCallBack}/>}></Route>
       <Route path = "/contact" element = {<Contact userName={userName}/>}></Route>
-      <Route path = "/" element = {<Home userName={userName}/>}></Route>
+      <Route path = "/home" element = {<Home userName={userName}/>}></Route>
+      <Route path = "/" element = {<Login appCallBack={appCallBack}/>}></Route>
+
     </Routes>
 
     </div>

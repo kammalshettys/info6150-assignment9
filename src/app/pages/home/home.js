@@ -18,7 +18,7 @@ function home(props) {
     btnTitle2: 'Search Jobs',
     title_style: {
       fontSize: "110px",
-      color: '#a3a1ff',
+      color: '#fff',
       fontFamily: 'emoji',
       fontWeight: 'bolder',
       textAlign: 'center'
@@ -28,13 +28,14 @@ function home(props) {
       fontSize: "30px",
       color: "white",
       border: "1px solid",
+      boxShadow: '10px 5px 5px 5px grey',
       marginTop: "50px",
       padding: "23px",
       borderRadius: "47px"
     },
     description2_style:{
       fontSize: "50px",
-      color: '#a3a1ff',
+      color: '#fff',
       fontFamily: 'emoji',
       fontWeight: 'bolder',
       textAlign: 'center',

@@ -1,12 +1,12 @@
 import React, { useState} from 'react';
 import Card from '../../components/card/card'
 import  AI_JOB from '../../../assets/AI_JOB.png'
-import  FULLSTACK from '../../../assets/fullstack.jpeg'
-import  DATAENGINEER from '../../../assets/dataEngineer.jpeg'
+import  FULLSTACK from '../../../assets/Full-Stack-Developer.webp'
+import  DATAENGINEER from '../../../assets/data-analystic.jpeg'
 import  DEVOPS from '../../../assets/DEVOPS.webp'
-import  Frontend from '../../../assets/frontend.png'
-import Fireman from '../../../assets/fireman.webp'
-import  Teacher from '../../../assets/teaching.png'
+import  Frontend from '../../../assets/frontendDev.jpeg'
+import Fireman from '../../../assets/fireman2.jpeg'
+import  Teacher from '../../../assets/teachingAssistant.jpeg'
 
 
 import './jobs.css'
